@@ -1,0 +1,17 @@
+ModuleCodeTestmodule Trigno
+    A=20
+    module Trig
+      PI = 3.141592654
+      class Try
+          def sin
+            puts A*PI
+          end
+          def Trig.cos
+            puts "wefrwe"
+          end
+      end
+    end
+end
+Trigno::A = 22
+
+Trigno::Trig::Try.new.sin()
